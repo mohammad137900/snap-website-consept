@@ -1,0 +1,453 @@
+/* start loading */
+.loading-box{
+  position: fixed;
+  z-index: 20;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  height: 27vh; 
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center; 
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  width: 100px;
+  
+}
+.loading{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border-top:1px solid #e74c3c ;
+  position: relative;
+  animation: a1 2s linear infinite;
+
+}
+.loading::before,.loading::after{
+  content:'';
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  left: 0;
+  top: -10px;
+  border-radius: 50%;
+}
+.loading::before{
+  border-top: 10px solid #e62222;
+  transform: rotate(120deg);
+
+}
+.loading::after{
+  border-top: 10px solid #3498db;
+  transform: rotate(240deg);
+
+}
+
+.loading span{
+  position: absolute;
+  width:150px;
+  height:200px;
+  color: #09e862;
+  font-size:30px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 200px;
+  animation: a2 2s linear infinite;
+  
+}
+@keyframes a1 {
+  to{
+    transform: rotate(360deg);
+  }
+}
+@keyframes a2 {
+  to{
+    transform: rotate(-360deg);
+  }
+}
+/* end loadin */
+.header {
+  background-color: #fff;
+  position: fixed;
+  z-index:19;
+  max-width:100%;
+  width:100%;
+  padding-bottom:50px;
+  direction: rtl;
+  height: 80px;
+  min-height: 5vh;
+}
+.header * {
+  text-decoration: none;
+  margin-right:20px;
+  margin-top: 10px;
+  vertical-align: middle;
+}
+.menu li a {
+  font-family: IRANSansMobile-fa, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans",
+    "Helvetica Neue", sans-serif;
+  color: rgb(63, 63, 63);
+  font-size: 16px;
+}
+.menu li {
+  display: inline-block;
+  margin: 0;
+}
+#snapp-logo {
+  padding-right: 100px;
+}
+#snapp-logo img {
+  width: 90px;
+  padding-bottom: 10px;
+}
+body {
+
+
+}
+/* sec2>main>banner {START} */
+.main-login {
+  display: flex;
+  max-width: 100%;
+  width: 99%;
+  height: 500px;
+  display: flex;
+  padding-top: 6%;
+  /* min-height: 300px; */
+ 
+}
+.form-login {
+  background-color: #21aa58;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  padding-top: 40px;
+  padding-bottom: 32px;
+  max-width: 50%;
+  width: 49%;
+  direction: rtl;
+  text-align:center;
+  line-height: 1.7;
+  height: 405px;
+}
+.intrnal-frm-log h1{
+  font-weight: bold;
+  color: #fff;
+  padding-right:30%;
+}
+.intrnal-frm-log pre{
+  font-weight: bold;
+  color: #fff;
+  padding-right:30%;
+  text-align: center;
+  padding-top: 16px ;
+  padding-bottom: 16px;
+}
+#tel{
+  border-bottom:2px solid #f2f5f8;
+  color: #f2f5f8;
+  padding: 12px;
+  outline: none;
+  border-left: none;
+  border-top: none;
+  inline-size: none;
+  border-right: none;
+  line-height: 20px;
+  width: 200px; 
+  margin-right:10rem;
+  background-color: #21aa58;
+}
+#tel::placeholder{
+  color:#cdcdcd;
+}
+#ersal-link{
+  cursor: pointer;
+  width: 120px;
+  background-color: #ffffff;
+  border: none;
+  color: #21aa58;
+  padding: 10px;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 15px;
+}
+#go-web-app{
+  margin-top:30px;
+  margin-right: 10px;
+}
+#go-web-app input{
+  padding: 13px 15px;
+  cursor: pointer;
+  width:220px;
+  color: #f2f5f8;
+  background-color: #21aa58;
+  font-weight: bold;
+  font-size: 15px;
+  border:1px solid #fff;
+  border-radius: 5px;
+}
+#go-web-app input:hover{
+  background-color: rgb(104, 193, 118);
+}
+.login-img img{
+  width: 100%;
+  height: 99%;
+  min-width: 0;
+}
+
+
+
+.login-img {
+  height: 408px;
+  max-width: 50%;
+  width: 50%;
+  background-size: cover;
+  
+}
+
+/* sec2>main>donApp{start} */
+.snapp-version img {
+  width: 180px;
+  vertical-align: middle;
+}
+.snapp-version {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding-top:5%;
+  padding-bottom: 5%;
+  align-items: center;
+  max-width:100%;
+  width: 99%;
+  min-height: 8vh;
+}
+/* raha finish */
+/* mohammad start */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "IRANSansMobile-fa, -apple-system, BlinkMacSystemFont",
+    "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
+    "Droid Sans", "Helvetica Neue", sans-serif;
+}
+
+/* in ghesmat secttion asli ke tamami option ha va onvan haye snap dar an ghara gerefte,in section ra be tedadi div taghsim kardim va css haye lazem ra be kar bordim
+  agar soali dashtid dar discord pasokh goye shoma hastim  ( OMEGA TEAM) 
+  PRODOCT BY ((SEAWOLF))*/
+.section-apps {
+  height: 900px;
+  background-color: #f2f5f8;
+  direction: rtl;
+  min-height:25vh;
+}
+.top-text h2 {
+  font-size: 36px;
+  font-weight: 700;
+  padding-top: 40px;
+  padding-bottom: 35px;
+  text-align: center;
+  color: #3f3f3f;
+}
+.s-father {
+  display: flex;
+  justify-content: center;
+}
+.snap-apps {
+  max-width: 100%;
+  width: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 20px;
+  row-gap: 15px;
+  flex-wrap: wrap;
+  height: 700px;
+}
+.market-i,
+.express-i,
+.in-fly-i,
+.bime-i {
+  width: 52px;
+}
+.snap-apps div a {
+  text-decoration: none;
+}
+.snap-apps div a h4 {
+  color: #0d0c0c;
+}
+
+.snap-apps div {
+  background: #fff;
+  width: 290px;
+  height: 80px;
+  border-radius: 12px;
+  position: relative;
+}
+.snap-apps img {
+  position: absolute;
+  bottom: 15px;
+  margin-right: 7px;
+}
+.snap-apps div a p,
+h4 {
+  margin-right: 55px;
+  padding: 3px;
+  font-size: 13.5px;
+  color: #a3a3a3;
+}
+.snap-apps div a h4 {
+  margin-top: 20px;
+}
+/* payane section snap-apps */
+/* statrt snap option */
+/*slide-show*/
+
+/* css.slider */
+.container {
+  
+  height: 270px;
+  width: 1000px;
+  background: red;
+  /* transform: translate(-50%, -50%); */
+  margin: 0 auto;
+  overflow: hidden;
+  border-radius: 9px;
+  position: relative;
+  /* margin-top: 40px; */
+
+}
+
+
+.navigator {
+  display: flex;
+  position: absolute;
+  top: 93%;
+  left: 45.1%;
+
+
+  /* transform: translate(-50%); */
+}
+
+.navigator .bar {
+  height: 8px;
+  width: 8px;
+  background: rgb(255, 255, 255);
+  cursor: pointer;
+  border: 2px solid #ffffff;
+  border-radius: 50%;
+  margin-left: 8px;
+  /* box-shadow: 2px 2px 6px #fff, -2px -2px 6px #c61313; */
+}
+
+.navigator .bar:hover {
+  background: #060000;
+}
+
+input[name="common"] {
+  position: absolute;
+  visibility: hidden;
+}
+
+.slides {
+
+  display: flex;
+  height: 270px;
+  width: 400%;
+}
+
+.slide {
+  width: 25%;
+  transition: 0.4s ease;
+}
+
+.slides img {
+  width: 100%;
+  height: 100%;
+}
+
+#btn1:checked~.first {
+  margin-left: 0;
+}
+
+#btn2:checked~.first {
+  margin-left: -25%;
+}
+
+#btn3:checked~.first {
+  margin-left: -50%;
+}
+
+#btn4:checked~.first {
+  margin-left: -75%;
+}
+
+/* css slider */
+.snap-option{
+  margin-top: 5%;
+  
+ 
+}
+.main-s-o{
+  margin-top: 4%;
+  display: flex;
+  flex-direction: row-reverse;
+  z-index: 100;
+  /* position: relative; */
+}
+.right-s-o{
+  width: 50%;
+  height: 400px;
+}
+.right-s-o img{
+  width: 100%;
+  height: 100%;
+}
+.left-s-o{
+  display: flex;
+  flex-direction: column;
+  text-align:right;
+  width: 50%;
+  height: 400px;
+  gap: 20;
+}
+.left-s-o h2,pre{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-top: 2%;
+  margin-right: 5%;
+  color: rgb(63, 63, 63);
+  line-height:30px;
+}
+.down-s-o{
+  z-index: 2000;
+  height:300px;
+  direction: rtl;
+  display: flex;
+  justify-content:center;
+  box-sizing: border-box;
+  margin-top:-5%;
+  padding-left: 12%;
+}
+
+.down-s-o #easy,#fast,#eco{
+  margin-right: 13%;
+  
+}
+.down-s-o p{
+  font-weight: bold;
+}
+.down-s-o pre{
+  text-align:justify;
+  font-size:10px;
+  line-height: 25px;
+  font-weight: bold;
+}
+.down-s-o img{
+  border-radius: 13px;
+  background: transparent;
+  background:rgb(230, 223, 223);
+  
+}
+
